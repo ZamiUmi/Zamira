@@ -1,0 +1,249 @@
+@media screen and (max-width:1200px){
+    
+}
+@media screen and (max-width:992px){
+    .portfolio{
+        max-width: 1135px;
+    }
+
+    .threads{
+        left: -21px;
+    }
+    .explore{
+        left: 8px;
+    }
+    .finish{
+        top: 426px;
+        left: -565px;
+    }
+
+    .lines {
+        top: 408px;
+        left: -21px;
+    }
+    .southwest{
+        top: 408px;
+        left: 8px;
+    }
+    .window{
+        top: 824px;
+        left: -565px;
+    }   
+}
+
+@media screen and (max-width:768px){
+    .portfolio{
+        position: relative;
+        left: 19px;
+    }
+
+    .threads{
+        left: -120px;
+    }
+    .explore{
+        left: -105px;
+    }
+    .finish{
+        top: 426px;
+        left: -672px;
+    }
+
+    .lines {
+        top: 408px;
+        left: -120px;
+    }
+    .southwest{
+        top: 408px;
+        left: -105px;
+    }
+    .window{
+        top: 824px;
+        left:  -672px;
+    }  
+}
+
+@media screen and (max-width:320px){
+    .portfolio{
+        position: relative;
+        left: 51px;
+        font-size: 25px;
+    }
+    
+    .threads{
+        left: -113px;
+    }
+    .explore{
+        top: 426px;
+        left: -488px;
+    }
+    .finish{
+        top: 850px;
+        left: -860px;
+    }
+    
+    .lines {
+        top: 855px;
+        left: -121px;
+    }
+    .southwest{
+        top: 1280px;
+        left: -485px;
+    }
+    .window{
+        top: 1705px;
+        left: -832px;
+    }
+}
+
+body{
+    background-color: #f8f9fa;
+}
+.images:hover {
+    filter: sepia(1)  saturate(3) blur(1px);
+}
+
+.portfolio{
+   text-align: center;
+}
+.portfolio h1{
+    text-transform: uppercase
+}
+.portfolio h3{
+    color: gray;
+}
+
+
+#threads{
+    width: 350px;
+}
+.threads{
+    position:relative ;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 350px;
+    text-align: center;
+}
+.threads h2{
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+.threads h3{
+    margin-top: 0px;
+    color: gray;
+}
+
+
+#explore{
+     width: 350px;
+ }
+.explore{
+    position: relative;
+    align-items: center;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: -376px ;
+    margin-left: 500px;
+    width: 350px;
+    text-align: center;
+
+ }
+ .explore h2{
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+ }
+ .explore h3{
+     margin-top: 0px;
+     color: gray;
+ }
+
+
+ #finish{
+    width: 350px;
+}
+.finish{
+   position: relative;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: -376px ;
+    margin-left: 870px;
+    width: 350px;
+    text-align: center;
+}
+.finish h2{
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+.finish h3{
+    margin-top: 0px;
+    color: gray;
+}
+
+
+#lines{
+    width: 350px;
+}
+
+.lines{
+    position: relative;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 130px;
+    width: 350px;
+    text-align: center;
+}
+.lines h2{
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+.lines h3{
+    margin-top: 0px;
+    color: gray;
+}
+
+
+#southwest{
+     width: 350px;
+ }
+.southwest{
+    position: relative;
+    align-items: center;
+     border: 1px solid white;
+     background-color: white;
+     margin-top: -376px ;
+     margin-left: 500px;
+     width: 350px;
+     text-align: center;
+ }
+ .southwest h2{
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+ }
+ .southwest h3{
+     margin-top: 0px;
+     color: gray;
+ }
+
+
+#window{
+    width: 350px;
+}
+.window{
+   position: relative;
+    border: 1px solid white;
+    background-color: white;
+    margin-top: -376px ;
+    margin-left: 870px;
+    width: 350px;
+    text-align: center;
+}
+.window h2{
+    --fa-style-family-classic: "Font Awesome 6 Free";
+    --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+}
+.window h3{
+    margin-top: 0px;
+    color: gray;
+}
